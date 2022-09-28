@@ -29,11 +29,11 @@ class Stack:
     if(self.head != None):
       temp = self.head
       while temp.next!= None:
-        print(temp.data, end = &quot;&quot;)
-        print(&quot;=&gt;&quot;, end = &quot;&quot;)
-       temp = temp.next
-      print(temp.data, end = &quot;=&gt;&quot;)
-      print(&quot;None&quot;)
+        print(temp.data, end = "")
+        print("=>",end="")
+        temp = temp.next
+      print(temp.data, end ="=>")
+   print("None")
 
 
 
