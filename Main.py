@@ -16,11 +16,11 @@ class Stack:
     ptr = self.head 
     if(self.head is None):
       print("None") 
-   else:
-    while (ptr):
-      print(ptr.data, end="=>") 
-      ptr = ptr.next 
-    print("None") 
+    else:
+      while (ptr):
+        print(ptr.data, end="=>") 
+        ptr = ptr.next 
+      print("None") 
 # Do not change the following code
 stack = Stack()
 operations = []
