@@ -26,11 +26,11 @@ stack = Stack()
 operations = []
 for specific_operation in input().split(','):
     operations.append(specific_operation.strip())
-input_data = input()
-data = input_data.split(',')
+    input_data = input()
+    data = input_data.split(',')
 for i in range(len(operations)):
   if operations[i] == "push":
     stack.push(int(data[i]))
   elif operations[i] == "pop":
     stack.pop()
-stack.status()
+    stack.status()
